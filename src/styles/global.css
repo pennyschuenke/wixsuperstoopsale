@@ -1,0 +1,195 @@
+/* CSS reference: https://www.wix.com/velo/reference/$w/styling-elements-with-css */
+ 
+/* These CSS styles will be applied globally to every page of this site. Write your CSS here, e.g.: */
+
+/*  Change button background color to red: */
+/* .button {
+    background-color: red;
+} */
+ .box {
+     margin-right: 5px;
+     margin-left: 5px;
+     margin-bottom: 15px;
+     margin-top: 15px;
+   /* To learn more about CSS classes, visit https://support.wix.com/en/article/css-editing. Write your CSS here: */
+} 
+
+ .section {
+     border-radius: 5px;
+     
+ }
+.text4 {
+text-justify:kashida
+}
+
+ .section8 {
+     border-radius: 5px;
+   /* To learn more about CSS classes, visit https://support.wix.com/en/article/css-editing. Write your CSS here: */
+} 
+.section6 {
+
+    border-radius: 5px;
+}
+
+ .image {
+    
+} 
+
+
+
+
+
+@-webkit-keyframes heartPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes heartPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}
+@-webkit-keyframes heartUnlike {
+  50% {
+    transform: scale(0.75);
+  }
+}
+@keyframes heartUnlike {
+  50% {
+    transform: scale(0.75);
+  }
+}
+@-webkit-keyframes heartFloatMain-1 {
+  0% {
+    opacity: 0;
+    transform: translate(0) rotate(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0, -25px) rotate(-20deg);
+  }
+}
+@keyframes heartFloatMain-1 {
+  0% {
+    opacity: 0;
+    transform: translate(0) rotate(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0, -25px) rotate(-20deg);
+  }
+}
+@-webkit-keyframes heartFloatMain-2 {
+  0% {
+    opacity: 0;
+    transform: translate(0) rotate(0) scale(0);
+  }
+  50% {
+    opacity: 0.9;
+    transform: translate(-10px, -38px) rotate(25deg) scale(1);
+  }
+}
+@keyframes heartFloatMain-2 {
+  0% {
+    opacity: 0;
+    transform: translate(0) rotate(0) scale(0);
+  }
+  50% {
+    opacity: 0.9;
+    transform: translate(-10px, -38px) rotate(25deg) scale(1);
+  }
+}
+@-webkit-keyframes heartFloatSub-1 {
+  0% {
+    visibility: hidden;
+    transform: translate(0) rotate(0);
+  }
+  50% {
+    visibility: visible;
+    transform: translate(13px, -13px) rotate(30deg);
+  }
+}
+@keyframes heartFloatSub-1 {
+  0% {
+    visibility: hidden;
+    transform: translate(0) rotate(0);
+  }
+  50% {
+    visibility: visible;
+    transform: translate(13px, -13px) rotate(30deg);
+  }
+}
+@-webkit-keyframes heartFloatSub-2 {
+  0% {
+    visibility: hidden;
+    transform: translate(0) rotate(0);
+  }
+  50% {
+    visibility: visible;
+    transform: translate(18px, -10px) rotate(55deg);
+  }
+}
+@keyframes heartFloatSub-2 {
+  0% {
+    visibility: hidden;
+    transform: translate(0) rotate(0);
+  }
+  50% {
+    visibility: visible;
+    transform: translate(18px, -10px) rotate(55deg);
+  }
+}
+@-webkit-keyframes heartFloatSub-3 {
+  0% {
+    visibility: hidden;
+    transform: translate(0) rotate(0);
+  }
+  50% {
+    visibility: visible;
+    transform: translate(-10px, -10px) rotate(-40deg);
+  }
+  100% {
+    transform: translate(-50px, 0);
+  }
+}
+@keyframes heartFloatSub-3 {
+  0% {
+    visibility: hidden;
+    transform: translate(0) rotate(0);
+  }
+  50% {
+    visibility: visible;
+    transform: translate(-10px, -10px) rotate(-40deg);
+  }
+  100% {
+    transform: translate(-50px, 0);
+  }
+}
+@-webkit-keyframes heartFloatSub-4 {
+  0% {
+    visibility: hidden;
+    transform: translate(0) rotate(0);
+  }
+  50% {
+    visibility: visible;
+    transform: translate(2px, -18px) rotate(-25deg);
+  }
+}
+@keyframes heartFloatSub-4 {
+  0% {
+    visibility: hidden;
+    transform: translate(0) rotate(0);
+  }
+  50% {
+    visibility: visible;
+    transform: translate(2px, -18px) rotate(-25deg);
+  }
+}
+
